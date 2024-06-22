@@ -1,0 +1,23 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  border: 2px solid #8B4513; /* Darker brown border */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+  
+  .square {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .square.black {
+    background-color: gray;
+  }
+  
+  .square.white {
+    background-color: white;
+  }
+  
