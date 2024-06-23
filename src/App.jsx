@@ -1,14 +1,15 @@
 import React from 'react';
-import Board from './Board';
-import './App.css';
+import Game from './Game';
+import "./App.css"
 
-const App = () => {
+
+function App() {
   return (
     <div className="App">
-      <h1>Chess Game</h1>
-      <Board />
+      <h1>Chess App</h1>
+      <Game />
     </div>
   );
-};
+}
 
 export default App;
